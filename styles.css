@@ -16,7 +16,7 @@ html{
 
 body {
   font-family: "Chivo";
-  background-color: #ececec;
+  
 }
 
 .nombre {
@@ -75,6 +75,7 @@ body {
 .doscard,
 .trescard {
   color: #212121;
+  background-color: ;
   width: 100%;
   padding: 40px 20px;
   border-radius: 10px;
@@ -82,8 +83,7 @@ body {
 }
 
 .unocard {
-  background:  linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url(./img/svg/undraw_urban_design_kpu8.svg) no-repeat 55% 20%;
- background-size: contain;
+ 
   
   display: flex;
   flex-flow: column wrap;
@@ -109,7 +109,7 @@ body {
 div.card-action.pink.center-align{
   padding-right: 0;
   margin-top: 5rem;
-  background-color: turquoise;
+  
 }
   
   
@@ -133,10 +133,8 @@ header > .nav-wrapper {
   width: 100%;
   margin: 0px auto;
   margin-bottom: 15px;
-  height: 120px;
-  line-height: 120px;
-  border-bottom: 1px solid #ececec;
-
+  min-height: 140px;
+  line-height: 140px;
   font-weight: 400;
   z-index: 0;
   box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.15);
@@ -166,7 +164,15 @@ nav ul a:hover {
 
 .brand-logo {
   color: #212121 !important;
+
 }
+
+
+span.ana.maria {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
 
 /* FOOTER */
 
@@ -178,8 +184,6 @@ nav ul a:hover {
 .txinkoa {
   color: #e91e63 !important;
 }
-
-
 
 
 /*Kontakt Section*/
