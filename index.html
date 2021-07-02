@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Ana María Ramírez Velazco Architect</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Chivo+Black&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="normalize.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="nav-wrapper grey lighten-4">
+      <div class="container">
+        <a href="#" class="brand-logo">
+          <h2 class="nombre">
+            <span class="ana">ana</span><span class="maria"> maría</span><br /><span class="ramirez">ramírez</span><span
+              class="velazco"> velazco</span><b />
+          </h2>
+        </a>
+        <a href="" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">CV</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#kontakt">Contact</a></li>
+        </ul>
+        <ul class="sidenav grey lighten-5" id="mobile-menu">
+          <li><a href="#">CV</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#kontakt">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hiden content with "hide","hide-on-med-only", "hide-on-large-only", "hide-on-small-only", "hide-on-med-and-down", hide-on-med-and-up classes.-->
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m12 l12 xl12">
+          <div class="card unocard grey lighten-4">
+            <div class="card-content blank-text">
+              <span class="card-title">Hola!</span>
+              <p class="flow-text">
+                I´m <a href="#about"><span class="ana2">ANA</span></a> , a
+                peruvian architect who lives in Hamburg. By the way,
+                I have management skills &#12483;
+              </p>
+            </div>
+
+            <div class="card-action pink center-align">
+              <a class="getintouch" href="#kontakt">contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m12 l16 xl6">
+          <div class="card doscard grey lighten-4">
+            <div class="card-content blank-text">
+              <span class="card-title">Hi there!</span>
+              <p class="flow-text">
+                I´m Ana. A peruvian woman who lives in Hamburg. I love the
+                chocolate and I'm pretty good at managing resources &#9786;
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l16 xl6">
+          <div class="card doscard grey lighten-4">
+            <div class="card-content blank-text">
+              <span class="card-title">Hi there!</span>
+              <p class="flow-text">
+                I´m Ana. A peruvian woman who lives in Hamburg. I love the
+                chocolate and I'm pretty good at managing resources &#9786;
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="skills" class="col s12 m12 l16 xl4">
+          <div class="card trescard grey lighten-4">
+            <div class="card-content blank-text">
+              <span class="card-title">Skills!</span>
+              <p class="flow-text skills">Drawing</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l16 xl4">
+          <div class="card trescard grey lighten-4">
+            <div class="card-content blank-text">
+              <span class="card-title">Skills!</span>
+              <p class="flow-text skills">Autocad & Revit</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l16 xl4">
+          <div class="card trescard grey lighten-4">
+            <div class="card-content blank-text">
+              <span class="card-title">Skills!</span>
+              <p class="flow-text skills">Coordination</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact form -->
+    <section class="section container scrollspy" id="kontakt">
+      <div class="row">
+        <div class="col s12 l5">
+          <h4 class="pink-text">What can I do for you?</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.
+          </p>
+          <p>
+            Mauris dolor augue, vulputate in pharetra ac, facilisis nec
+            libero. Fusce condimentum gravida urna, vitae scelerisque erat
+            ornare nec.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.
+          </p>
+          <p>
+            Mauris dolor augue, vulputate in pharetra ac, facilisis nec
+            libero. Fusce condimentum gravida urna, vitae scelerisque erat
+            ornare nec.
+          </p>
+        </div>
+        <div class="col s12 l5 offset-l2">
+          <form>
+            <div class="input-field">
+              <i class="material-icons prefix">email</i>
+              <input type="email" id="email" />
+              <label for="email">Email</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">message</i>
+              <textarea id="message" class="materialize-textarea" cols="20" rows="20"></textarea>
+              <label for="message">Message</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">date_range</i>
+              <input type="text" id="date" class="datepicker" />
+              <label for="date">Date</label>
+            </div>
+            <div class="input-field">
+              <p>Services required:</p>
+              <p>
+                <label>
+                  <input type="checkbox" />
+                  <span>3D</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" />
+                  <span class="ayuda">Assistant</span>
+                </label>
+              </p>
+            </div>
+            <div class="input-field center">
+              <button class="btn pink">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer -->
+
+  <footer id="sozial" class="page-footer grey lighten-4">
+    <div class="container">
+      <div class="row"></div>
+      <div class="col l4 offset-l2 s12">
+        <ul class="listahorizontal">
+          <li><a class="grey-text text-darken-4" href="#">Linkedin</a></li>
+          <li>
+            <a class="grey-text text-darken-4" href="#">Instagram</a>
+          </li>
+          <li><a class="grey-text text-darken-4" href="#">Facebook</a></li>
+          <li><a class="grey-text text-darken-4" href="#">References</a></li>
+          <li><a class="grey-text text-darken-4" href="#">Blog</a></li>
+
+        </ul>
+
+      </div>
+
+    </div>
+    </div>
+    <div class="footer-copyright grey-text text-darken-4 grey lighten-3">
+      <div class="container center-align">
+        <a class="grey-text text-darken-4" href="#">
+          Web Design
+          <span class="txinkoa" style="cursor: wait">&#x21cb;</span>
+          Bendita Varsovia</a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/scroll.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".sidenav").sidenav();
+      $(".materialboxed").materialbox();
+      $(".datepicker").datepicker({});
+    });
+  </script>
+</body>
+
+</html>

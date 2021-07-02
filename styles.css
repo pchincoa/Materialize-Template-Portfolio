@@ -1,0 +1,280 @@
+
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Chivo";
+  src: url("fonts/Chivo/Chivo-Regular.ttf");
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("fonts/worksans/WorkSans-Regular.ttf");
+}
+
+body {
+  font-family: "Chivo";
+  background-color: #ececec;
+}
+
+.nombre {
+  font-size: 0.7em;
+  margin-left: 1rem;
+ 
+}
+
+.ana,
+.maria {
+  color: #212121;
+  transition: all 500ms;
+}
+
+.ramirez,
+.velazco {
+  color: #e91e63;
+  transition: all 500ms;
+}
+
+.ana2 {
+  -webkit-text-fill-color: #f5f5f5;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #e91e63;
+  transition: all 500ms;
+}
+
+.ramirez:hover,
+.ana2:hover,
+.velazco:hover {
+  color: #212121;
+  -webkit-text-stroke-color: #212121;
+}
+
+.ana:hover,
+.maria:hover {
+  color: #e91e63;
+}
+
+.ana,
+.maria {
+  font-size: 1.7em !important;
+}
+
+.ramirez,
+.velazco {
+  font-size: 1.1em !important;
+}
+
+.getintouch {
+  color: #f5f5f5 !important;
+  text-transform: inherit !important;
+}
+
+.unocard,
+.doscard,
+.trescard {
+  color: #212121;
+  width: 100%;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.15), inset 1px 2px 0 0 #fff;
+}
+
+.unocard {
+  background:  linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url(./img/svg/undraw_urban_design_kpu8.svg) no-repeat bottom;
+ background-size: 60%;
+  
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+  .pink {
+      text-transform: uppercase !important;
+     border-radius: 10px !important;
+      transition: all ease-in-out 0.2s !important;
+      
+    }
+  
+  
+.pink:hover{
+  background-color: #212121 !important;
+  cursor: pointer  !important;
+
+}
+
+div.card-action.pink.center-align{
+  padding-right: 0;
+  margin-top: 5rem;
+}
+  
+  
+
+
+.trescard {
+  margin-top: 40px;
+}
+
+.flow-text {
+  color: #212121 !important;
+  font-size: 2em !important;
+  font-weight: 600 !important;
+}
+
+.skills {
+  font-size: 1.8em !important;
+}
+
+header > .nav-wrapper {
+  width: 100%;
+  margin: 0px auto;
+  margin-bottom: 15px;
+  height: 120px;
+  line-height: 120px;
+  border-bottom: 1px solid #ececec;
+
+  font-weight: 400;
+  z-index: 0;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.15);
+  transition: top 0.3s;
+}
+header a:not(.brand-logo) {
+  transition: all ease-in-out 0.2s;
+}
+
+header a:not(.brand-logo):hover {
+  color:#e91e63;
+}
+
+
+nav ul a {
+  font-size: 1.2rem;
+  color: #212121;
+}
+
+nav .sidenav-trigger i {
+  color: #212121;
+}
+
+nav ul a:hover {
+  background-color: transparent;
+}
+
+.brand-logo {
+  color: #212121 !important;
+}
+
+/* FOOTER */
+
+.page-footer {
+  border-top: 1px solid #ececec;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.15);
+}
+
+.txinkoa {
+  color: #e91e63 !important;
+}
+
+
+
+
+/*Kontakt Section*/
+
+section.container.container.scrollspy{
+  padding: 2rem 0rem 2rem 0rem;
+}
+
+.input-field{
+  margin-top: 1.5rem;
+
+}
+
+
+
+
+/* Sozial */
+
+.listahorizontal{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+align-items: center;
+height: 10vh;
+ 
+  
+  
+}
+
+
+.footer-copyright{
+  height: 5vh;
+}
+
+
+/*date picker classes*/
+
+.datepicker-date-display,
+.datepicker-table td.is-selected,
+.month-next:focus,
+.month-prev:focus {
+  background-color: #e91e63;
+}
+
+.datepicker-cancel,
+.datepicker-clear,
+.datepicker-today,
+.datepicker-done,
+.date-picker-day-button {
+  color: #e91e63;
+}
+
+/* label color */
+
+/* label focus color */
+.input-field input[type="text"]:focus + label {
+  color: #e91e63 !important;
+}
+
+/* label underline focus color */
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid #e91e63;
+  box-shadow: 0 1px 0 0 #e91e63;
+}
+
+/* valid color */
+.input-field input[type="text"].valid {
+  border-bottom: 1px solid #e91e63;
+  box-shadow: 0 1px 0 0 #e91e63;
+}
+
+/* invalid color */
+.input-field input[type="text"].invalid {
+  border-bottom: 1px solid #e91e63;
+  box-shadow: 0 1px 0 0 #e91e63;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #e91e63;
+}
+
+#email:focus,
+#message:focus,
+#date:focus {
+  border-bottom: 1px solid #e91e63;
+  box-shadow: 0 1px 0 0 #e91e63;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width 1024px){}
+
+@media screen and (max-width 768px){}
+
+@media screen and (max-width 560px){}
+
+@media screen and (max-width 375px){}
